@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemPreguntasTitulo"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/itemPreguntasRadioGroup"
+
+            >
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:id="@+id/itemPreguntasRb1"
+                ></RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:id="@+id/itemPreguntasRb2"
+                ></RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:id="@+id/itemPreguntasRb3"
+                ></RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:id="@+id/itemPreguntasRb4"
+                ></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
